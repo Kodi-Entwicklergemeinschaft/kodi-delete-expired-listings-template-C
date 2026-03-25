@@ -1,0 +1,28 @@
+{
+  "name": "delete-expired-listings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "pm2 start cronjob.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEIDI-Heimat-Digital/DeleteExpiredListings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HEIDI-Heimat-Digital/DeleteExpiredListings/issues"
+  },
+  "homepage": "https://github.com/HEIDI-Heimat-Digital/DeleteExpiredListings#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "log4js": "^1.1.1",
+    "utils-heidi": "^0.0.9",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.17"
+  }
+}
