@@ -13,7 +13,7 @@
     "url": "git+https://github.com/HEIDI-Heimat-Digital/DeleteExpiredListings.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "EUPL-1.2",
   "bugs": {
     "url": "https://github.com/HEIDI-Heimat-Digital/DeleteExpiredListings/issues"
   },
@@ -26,3 +26,4 @@
     "xml2js": "^0.4.17"
   }
 }
+
